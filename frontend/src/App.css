@@ -1,0 +1,58 @@
+/* App.css */
+
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Light grey background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+h2 {
+  text-align: center;
+  color: #343a40; /* Dark grey */
+  margin: 20px 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #007bff; /* Bootstrap primary blue */
+  padding: 15px;
+}
+
+.navbar a {
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+}
+
+.navbar a:hover {
+  color: #ffd700; /* Gold on hover */
+}
+
+/* Main Container */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
