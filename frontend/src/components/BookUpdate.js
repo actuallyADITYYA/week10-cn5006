@@ -32,7 +32,6 @@ export default function BookUpdate() {
             <h3>Update Book</h3>
             <input name="title" value={book.title || ""} onChange={handleChange} />
             <input name="author" value={book.author || ""} onChange={handleChange} />
-            {/* Add other fields similarly */}
             <button type="submit">Update</button>
         </form>
     );

@@ -18,7 +18,7 @@ export default function App() {
                     <Link to="/display-books" className="navbar-brand">Display Books</Link>
                 </nav>
                 <Switch>
-                    <Route path="/" exact component={AddBook} />
+                    <Route path="/" exact component={AddBook} />    
                     <Route path="/display-books" component={DisplayBooks} />
                     <Route path="/edit/:id" component={BookUpdate} />
                     <Route path="/delete/:id" component={DeleteBook} />
